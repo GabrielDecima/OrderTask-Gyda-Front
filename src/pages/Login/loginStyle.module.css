@@ -1,0 +1,111 @@
+.fondo{
+    background-image: url(./assets/Register.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    
+}
+
+.containerForm{
+    
+    max-width: 560px;
+    height: 700px;
+    flex-shrink: 0;
+    position: absolute;
+    right: 138px;
+    bottom: 146px;
+    border-radius: 8px;
+    border: 1px solid #000;
+    background: #FFF;
+    width: 100%;
+    
+}
+
+.classForm{
+    display: flex;
+    flex-direction: column;
+    gap:12px;
+    align-items: center;
+    margin-top: 101px;
+
+}
+
+.title{
+    color: #000;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    display: flex;
+    width: 299px;
+    height: 29px;
+    justify-content: center;
+    align-items: center;
+    flex-shrink: 0;
+    
+}
+
+.input{
+    color: #000;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    width: 366px;
+    margin-top: 28px;
+    border: none;
+    border-bottom: 1px solid black;
+    outline: none;
+
+  
+}
+
+.button_iniciar{
+    display: flex;
+    width: 366px;
+    padding: 20px 130px 20px 135px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    border-radius: 8px;
+    background: #000;
+    color : #FFF;
+    margin-top: 28px;
+}
+
+.link_a{
+    color: #000;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-decoration: none;
+    display: flex;
+    width: 206px;
+    height: 22px;
+    padding: 0px 3px 2px 0px;
+    justify-content: center;
+    align-items: center;
+    flex-shrink: 0;
+    margin-top: 28px;
+    margin-bottom: 28px;
+}
+
+.button_crear{
+    display: flex;
+    width: 366px;
+    padding: 20px 130px 20px 135px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    border-radius: 8px;
+    border: 1px solid #000;
+    background: #FFF;
+    margin-top: 28px;
+}
+

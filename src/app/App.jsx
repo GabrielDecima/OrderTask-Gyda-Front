@@ -1,11 +1,13 @@
 import './App.css';
+import { AppRouter } from '../routes/AppRouter';
+
 
 function App() {
  
-
   return (
     <>
-      <h1>holis</h1>
+      <AppRouter/>
+  
     </>
   );
 }

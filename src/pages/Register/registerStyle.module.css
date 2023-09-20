@@ -1,0 +1,87 @@
+.fondo{
+    background-image: url(./assets/Register.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    
+}
+
+.containerForm{
+    
+    width: 540px;
+    height: 800px;
+    position: absolute;
+    right: 109px;
+    top: 76px;
+    border-radius: 8px;
+    background: #FFF;
+    
+}
+
+.classForm{
+    display: flex;
+    flex-direction: column;
+    gap:12px;
+    align-items: center;
+    margin-top: 80px;
+
+}
+
+.title{
+    color: #000;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    display: flex;
+    width: 299px;
+    height: 29px;
+    justify-content: center;
+    align-items: center;
+    flex-shrink: 0;
+    
+}
+
+.input{
+    color: #000;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    width: 366px;
+    margin-top: 28px;
+    border: none;
+    border-bottom: 1px solid black;
+    outline: none;
+
+  
+}
+
+.button_iniciar{
+    display: flex;
+    width: 366px;
+    padding: 20px 130px 20px 135px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    border-radius: 8px;
+    background: #000;
+    color : #FFF;
+    margin-top: 28px;
+}
+
+.p_form{
+    width: 366px;
+    color: #000;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    padding-top: 41px;
+
+}

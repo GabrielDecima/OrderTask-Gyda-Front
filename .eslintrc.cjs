@@ -18,14 +18,6 @@ module.exports = {
       { allowConstantExport: true },
     ],
   
-    'indent': [
-      'error',
-      2
-    ],
-    'linebreak-style': [
-      'error',
-      'unix'
-    ],
     'quotes': [
       'error',
       'single'
@@ -34,6 +26,6 @@ module.exports = {
       'warn',
       'always'
     ],
-
+    'no-unused-vars': 'off',
   },
 };

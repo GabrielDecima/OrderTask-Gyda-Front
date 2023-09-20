@@ -1,0 +1,15 @@
+
+.container {
+    display: flex;
+    
+  }
+  
+  .content {
+    flex: 1 1 auto;
+ 
+    /* Estilos adicionales para el contenido */
+  }
+  
+.content {
+    margin-left: 20px; /* Ajusta el margen cuando el sidebar se colapse */
+  }

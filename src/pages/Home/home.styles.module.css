@@ -1,0 +1,70 @@
+
+.containerResumen{
+    width: 510px;
+    height: 480px;
+    position: absolute;
+    bottom: 167px;
+    padding-top: 20px;
+}
+
+.img{
+    background-image: url(../../assets/Logogydacompleto.png);
+    width: 315px;
+    height: 117px;
+}
+
+.p{
+    width: 647px;
+    height: 106px;
+    position: absolute;
+    color: #000;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.containerResumen h3{
+    color: #000;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+
+.tarjetaResumen{
+    width: 510px;
+    height: 410px;
+   
+    border-radius: 3px;
+    border: 1px solid #000;
+    background: #FFF;
+}
+
+.title{
+
+    color: #000;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    margin: 10px;
+}
+
+.containerAgenda{
+    width: 576.746px;
+    height: 480px;
+   position: absolute;
+    right: 448.254px;
+    bottom: 158px;
+    padding-top: 20px;
+} 
+
+.containerAgenda h3{
+    color: #000;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
