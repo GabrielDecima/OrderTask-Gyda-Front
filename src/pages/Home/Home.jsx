@@ -1,19 +1,17 @@
 import styles from './home.styles.module.css';
 import Dropdown from './Dropdown';
+import Calendar from './Calendar';
 
 
 export default function Home ()  {
 
-    const InfoT = ['Tarea1', 'Tarea2', 'Tarea3'];
 
     return (
         <>
 
-        <section className={styles.sectionHome}>
+    <section className={styles.sectionHome}>
         <div className={styles.img}></div>
-    
-
-        <p className={styles.p}> Domina tu tiempo, simplifica tu vida: Bienvenido al futuro de la productividad con nuestra revolucionaria app de organización de tareas.....</p>
+            <p className={styles.p}> Domina tu tiempo, simplifica tu vida: Bienvenido al futuro de la productividad con nuestra revolucionaria app de organización de tareas.....</p>
 
         <div className={styles.containerResumen}>
             <h3>Resumen</h3>
@@ -24,15 +22,13 @@ export default function Home ()  {
 
         </div>
 
-
-
         <div className={styles.containerAgenda}>
-            <h3>Agenda</h3>
-            
+            <h3>Agenda</h3>  
+            <div className={styles.calendario}><Calendar/></div> 
         </div>
-        
-        </section>
-        </>
+    
+    </section>
+    </>
     );
 }
 

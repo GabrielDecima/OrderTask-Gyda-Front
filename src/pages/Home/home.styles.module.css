@@ -1,8 +1,9 @@
-
+.sectionHome{
+   position: absolute;
+}
 .containerResumen{
     width: 510px;
     height: 480px;
-    position: absolute;
     bottom: 167px;
     padding-top: 20px;
 }
@@ -16,7 +17,6 @@
 .p{
     width: 647px;
     height: 106px;
-    position: absolute;
     color: #000;
     font-size: 24px;
     font-style: normal;
@@ -30,14 +30,14 @@
     font-style: normal;
     font-weight: 400;
     line-height: normal;
+    padding-bottom: 10px;
 }
 
 
 .tarjetaResumen{
-    width: 510px;
-    height: 410px;
-   
-    border-radius: 3px;
+    width: 550px;
+    height: 550px;
+    border-radius: 12px;
     border: 1px solid #000;
     background: #FFF;
 }
@@ -55,10 +55,11 @@
 .containerAgenda{
     width: 576.746px;
     height: 480px;
-   position: absolute;
-    right: 448.254px;
-    bottom: 158px;
+    position: absolute;
+    left: 950px;
+    top: 239px;
     padding-top: 20px;
+
 } 
 
 .containerAgenda h3{
@@ -67,4 +68,13 @@
     font-style: normal;
     font-weight: 400;
     line-height: normal;
+    padding-bottom: 10px;
+}
+
+.calendario{
+    width: 550px;
+    height: 550px;
+    border: solid 1px black;
+    border-radius: 12px;
+    padding: 15px;
 }
